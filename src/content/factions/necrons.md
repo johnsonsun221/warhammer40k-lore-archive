@@ -1,15 +1,13 @@
 ---
-title: "Necrons"
-shortName: "Necrons"
-summary: "An ancient race of robotic warriors, the remnants of a once-organic civilisation now awakening from aeons of slumber."
+title: "死靈"
+shortName: "死靈"
+summary: "一支古老的機械戰士種族,曾為有機文明的殘存者,如今正從亙古的沉眠中甦醒。"
 alignment: "Xenos"
-tags: ["xenos", "ancient"]
+tags: ["異種", "遠古"]
 relatedEntries: []
 placeholder: true
 draft: false
 ---
 
-This is a placeholder faction page. Expand it with your own notes on this
-faction's history, dynasties, or anything else you find compelling about
-them - or replace this entirely with notes on a different alien faction
-you'd rather cover first.
+這是一個待補內容的派系頁面。請用你自己的筆記來充實它,寫下這個派系的歷史、王朝,
+或任何你覺得引人入勝之處 — 或者乾脆把它整個換成你更想先寫的另一個異種派系筆記。

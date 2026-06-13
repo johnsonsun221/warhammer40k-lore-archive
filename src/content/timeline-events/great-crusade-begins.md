@@ -1,21 +1,18 @@
 ---
-title: "The Great Crusade Begins"
-displayDate: "c. 798.M30"
+title: "大遠征的開端"
+displayDate: "約 798.M30"
 sortKey: 29798
 era: "great-crusade"
-summary: "Having united Terra under his rule, the Emperor launches a galaxy-wide campaign to reconquer and reunify the scattered worlds of mankind, sending out his Space Marine Legions and rediscovered Primarch sons."
-factions: ["Imperium of Man", "Space Marine Legions"]
-tags: ["great crusade", "primarchs", "expansion", "unification"]
+summary: "在將泰拉統一於治下後,帝皇發動一場席捲銀河的征伐,派出星際戰士軍團與重新尋回的原體之子,重新征服並統一人類四散的各個世界。"
+factions: ["人類帝國", "星際戰士軍團"]
+tags: ["大遠征", "原體", "擴張", "統一"]
 relatedLoreEntry: "the-great-crusade"
 relatedEvents: ["age-of-strife"]
 draft: false
 ---
 
-With Terra unified, the Emperor turns his gaze outward. Fleets of the
-newly-formed Space Marine Legions, each led by a genetically-engineered
-Primarch, set out to bring isolated human worlds back into the fold -
-by diplomacy where possible, and by force where not. This era is
-remembered as a golden age of discovery and conquest.
+泰拉統一後,帝皇將目光投向外界。新組建的星際戰士軍團艦隊,各由一位經基因工程
+打造的原體所率領,啟程將孤立的人類世界重新納入麾下 — 能以外交手段時便以外交,
+不能時則訴諸武力。這個時代被後世緬懷為發現與征服的黃金時代。
 
-> Replace this with your own notes on the Great Crusade - favourite Legions,
-> campaigns, or turning points you want to remember.
+> 請把這段換成你自己對大遠征的筆記 — 你最愛的軍團、戰役,或你想記下的轉捩點。

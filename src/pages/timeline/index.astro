@@ -23,14 +23,13 @@ for (const event of events) {
 const activeEras = new Set(groups.map((g) => g.era));
 ---
 
-<Layout title="Timeline" description="A chronological timeline of major Warhammer 40,000 events, as I've organised them.">
-  <h1>Timeline</h1>
+<Layout title="時間軸" description="依我自己的整理排列的 Warhammer 40,000 重大事件時間軸。">
+  <h1>時間軸</h1>
 
   <p>
-    A chronological run-through of the events I consider most important to
-    the setting, grouped by era. Dates are shown using in-universe notation
-    (e.g. "M31" = the 31st Millennium); ordering on this page is approximate
-    and based on my own reading of the timeline.
+    依時間順序帶你走過我認為對此設定最重要的事件,並按時代分組。日期採用設定內
+    的紀年表示法(例如「M31」=第 31 個千年);本頁的排序為概略順序,依據我自己
+    對時間軸的理解。
   </p>
 
   <EraNav activeEras={activeEras} />

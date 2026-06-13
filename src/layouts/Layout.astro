@@ -11,19 +11,19 @@ interface Props {
 
 const {
   title,
-  description = 'A personal, fan-made Warhammer 40,000 lore and timeline archive.',
+  description = '一個由粉絲製作的個人 Warhammer 40,000 背景設定與時間軸資料庫。',
 } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href={withBase('favicon.svg')} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
-    <title>{title} | Lore Archive</title>
+    <title>{title} | 背景設定資料庫</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

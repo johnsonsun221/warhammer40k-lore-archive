@@ -1,42 +1,32 @@
 ---
-title: "The Age of Strife: An Overview"
-summary: "A look at the collapse of humanity's first interstellar civilisation, and the dark, fractured millennia that followed before the rise of the Imperium."
+title: "紛爭之世:概覽"
+summary: "回顧人類第一個星際文明的崩潰,以及在帝國崛起之前那段黑暗、破碎的數千年歲月。"
 era: "age-of-strife"
-factions: ["Humanity"]
-tags: ["dark age of technology", "age of strife", "psykers"]
+factions: ["人類"]
+tags: ["科技黑暗時代", "紛爭之世", "靈能者"]
 relatedEvents: ["age-of-strife"]
 relatedEntries: []
 originalSummary: true
 draft: false
 ---
 
-## Overview
+## 概覽
 
-Before the Imperium, humanity enjoyed an earlier golden age of expansion
-and technological achievement, spreading across thousands of worlds with
-the help of advanced artificial intelligences and early warp travel. That
-age ended in catastrophe: a wave of psychic backlash, machine rebellion,
-and intensifying warp storms isolated and devastated huge swathes of
-human-settled space.
+在帝國之前,人類曾享有一段更早的擴張與科技成就黃金時代,在先進人工智慧與早期
+亞空間航行的協助下,擴展至數以千計的世界。那個時代以災難告終:一波靈能反噬、
+機械叛亂,以及日益猛烈的亞空間風暴,使大片人類定居的星域陷入孤立與毀滅。
 
-For tens of thousands of years afterward, surviving worlds were largely
-cut off from one another. Some societies regressed into superstition and
-barbarism, others fell under the rule of tyrants or rogue psykers, and
-contact between star systems became rare and dangerous. This long dark age
-forms the backdrop against which a single figure on Terra would eventually
-begin the work of reunification.
+在那之後的數萬年間,倖存的世界大多彼此斷絕往來。有些社會倒退至迷信與野蠻,
+有些則落入暴君或失控靈能者的統治之下,星系之間的聯繫變得罕見而危險。這段漫長的
+黑暗時代,正是日後泰拉上某位人物著手展開重新統一大業的時代背景。
 
-## Key Themes
+## 核心主題
 
-- The dangers of unchecked psychic power and reliance on artificial
-  intelligence.
-- Isolation as the default state of human civilisation before the
-  Imperium.
-- The stage being set for one world - Terra - to become the centre of a
-  new order.
+- 不受節制的靈能力量,以及對人工智慧的依賴,所帶來的危險。
+- 孤立,是帝國出現之前人類文明的常態。
+- 為某個世界 — 泰拉 — 成為新秩序中心鋪設了舞台。
 
 ---
 
-*This page is a starting template. Replace or expand this with your own
-research notes, theories, and favourite details about this era - this site
-is meant to be your personal reference, not a copy of any official source.*
+*本頁為起始範本。請以你自己的研究筆記、理論與最愛的細節取代或擴充它 — 本站定位為
+你的個人參考,而非任何官方來源的複製。*

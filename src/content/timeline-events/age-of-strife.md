@@ -1,20 +1,17 @@
 ---
-title: "The Age of Strife Begins"
-displayDate: "c. M25"
+title: "紛爭之世的開端"
+displayDate: "約 M25"
 sortKey: 24000
 era: "age-of-strife"
-summary: "Humanity's first great age of interstellar expansion collapses as psychic instability, machine rebellion, and warp storms cut countless worlds off from one another for thousands of years."
-factions: ["Humanity"]
-tags: ["dark age", "collapse", "psykers", "warp storms"]
+summary: "人類第一個星際擴張的偉大時代崩潰,靈能失控、機械叛亂與亞空間風暴使無數世界彼此孤立達數千年之久。"
+factions: ["人類"]
+tags: ["黑暗時代", "崩潰", "靈能者", "亞空間風暴"]
 relatedLoreEntry: "age-of-strife-overview"
 draft: false
 ---
 
-After millennia of expansion and technological mastery, human civilisation
-fractures. Surging warp activity isolates colony worlds from one another,
-psychic mutations become widespread, and many worlds fall to ruin or
-tyranny. This long dark age sets the stage for the rise of a single figure
-on Terra who will eventually reunite mankind.
+歷經數千年的擴張與科技精通後,人類文明四分五裂。激增的亞空間活動使各殖民世界
+彼此孤立,靈能變異變得普遍,許多世界淪為廢墟或暴政之下。這段漫長的黑暗時代,
+為日後泰拉上某位人物的崛起鋪設了舞台,而他終將重新統一人類。
 
-> Replace this with your own notes - sources, theories, or details you find
-> particularly interesting about this era.
+> 請把這段換成你自己的筆記 — 你覺得特別有趣的資料來源、理論或關於此時代的細節。

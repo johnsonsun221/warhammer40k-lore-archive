@@ -19,7 +19,7 @@ const { title, summary, era, tags } = entry.data;
     {tags.slice(0, 3).map((tag) => <Tag label={tag} />)}
   </div>
   <p>{summary}</p>
-  <a class="read-more" href={withBase(`lore/${entry.id}/`)}>Read entry &rarr;</a>
+  <a class="read-more" href={withBase(`lore/${entry.id}/`)}>閱讀條目 &rarr;</a>
 </article>
 
 <style>

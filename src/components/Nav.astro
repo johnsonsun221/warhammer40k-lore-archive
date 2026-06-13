@@ -2,16 +2,16 @@
 import { withBase } from '../utils/url';
 
 const links = [
-  { href: withBase(''), label: 'Home' },
-  { href: withBase('timeline/'), label: 'Timeline' },
-  { href: withBase('lore/'), label: 'Lore' },
-  { href: withBase('factions/'), label: 'Factions' },
-  { href: withBase('hobby/'), label: 'Hobby Log' },
-  { href: withBase('battle-reports/'), label: 'Battle Reports' },
-  { href: withBase('fan-creations/'), label: 'Fan Creations' },
-  { href: withBase('wishlist/'), label: 'Wishlist' },
-  { href: withBase('links/'), label: 'Links' },
-  { href: withBase('about/'), label: 'About' },
+  { href: withBase(''), label: '首頁' },
+  { href: withBase('timeline/'), label: '時間軸' },
+  { href: withBase('lore/'), label: '背景設定' },
+  { href: withBase('factions/'), label: '派系' },
+  { href: withBase('hobby/'), label: '模型誌' },
+  { href: withBase('battle-reports/'), label: '戰報' },
+  { href: withBase('fan-creations/'), label: '同人創作' },
+  { href: withBase('wishlist/'), label: '願望清單' },
+  { href: withBase('links/'), label: '連結' },
+  { href: withBase('about/'), label: '關於' },
 ];
 
 const currentPath = new URL(Astro.request.url).pathname;
@@ -19,7 +19,7 @@ const currentPath = new URL(Astro.request.url).pathname;
 
 <nav class="nav">
   <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-  <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+  <label for="nav-toggle" class="nav-toggle-label" aria-label="切換導覽選單">
     <span></span>
     <span></span>
     <span></span>

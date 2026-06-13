@@ -1,44 +1,33 @@
 ---
-title: "The Ruinous Powers: An Overview"
-summary: "Notes on the four major Chaos Gods - their domains, followers, and how they shape the setting's eternal struggle."
+title: "毀滅力量:概覽"
+summary: "關於四大混沌邪神的筆記 — 他們的領域、信徒,以及他們如何形塑此設定中永恆的鬥爭。"
 era: "other"
-factions: ["Chaos"]
-tags: ["chaos", "warp", "gods"]
+factions: ["混沌"]
+tags: ["混沌", "亞空間", "神祇"]
 relatedEvents: []
 relatedEntries: ["the-horus-heresy"]
 originalSummary: true
 draft: false
 ---
 
-## Overview
+## 概覽
 
-Beyond the material universe lies the Warp - a turbulent dimension of raw
-psychic energy that both fuels faster-than-light travel and is home to the
-setting's primary supernatural antagonists: four great Chaos powers, each
-born from and sustained by a particular aspect of intelligent life across
-the galaxy.
+在物質宇宙之外橫亙著亞空間 — 一個由原始靈能能量構成、動盪不安的維度。它既驅動了
+超光速航行,也是此設定主要超自然反派的居所:四大混沌力量,每一位都源自並仰賴於
+銀河各處智慧生命的某種特定面向而存續。
 
-Each power has its own domain, aesthetic, and following, and they are as
-often in conflict with one another as they are united against the mortal
-races. Their influence ranges from subtle temptation and corruption to
-outright invasion by daemonic hosts, and the struggle against them (and
-against the worst impulses they represent) is one of the setting's central
-themes.
+每一位力量都有自己的領域、美學風格與追隨者;他們彼此之間的衝突,與他們聯手對抗
+凡人種族的情形一樣頻繁。他們的影響力從隱微的誘惑與腐化,到惡魔大軍的全面入侵不等;
+而對抗他們(以及對抗他們所代表的最惡劣衝動)的鬥爭,正是此設定的核心主題之一。
 
-## The Four Powers (high level)
+## 四大力量(概要)
 
-- **The God of War and Bloodshed** - embodies rage, violence, and conflict
-  for its own sake.
-- **The God of Pestilence and Decay** - embodies disease, entropy, and a
-  twisted form of "generosity."
-- **The God of Excess and Pleasure** - embodies hedonism, excess, and the
-  pursuit of new sensation.
-- **The God of Schemes and Sorcery** - embodies ambition, knowledge,
-  manipulation, and change.
+- **戰爭與殺戮之神** — 體現了憤怒、暴力,以及為衝突而衝突。
+- **瘟疫與腐朽之神** — 體現了疾病、熵衰,以及一種扭曲形式的「慷慨」。
+- **放縱與愉悅之神** — 體現了享樂、過度,以及對新感官刺激的追求。
+- **謀略與巫術之神** — 體現了野心、知識、操弄與變化。
 
 ---
 
-*This page is a starting template - intentionally written at a high level.
-Replace or expand this with your own original notes, naming conventions,
-and observations - this site is meant to be your personal reference, not a
-copy of any official source.*
+*本頁為起始範本 — 刻意以概要層次撰寫。請以你自己的原創筆記、命名慣例與觀察取代或
+擴充它 — 本站定位為你的個人參考,而非任何官方來源的複製。*

@@ -36,16 +36,16 @@ const relatedTimeline = relatedEvents.length ? await getEntries(relatedEvents) :
     (relatedLore.length > 0 || relatedTimeline.length > 0) && (
       <>
         <hr class="divider" />
-        <h2>See Also</h2>
+        <h2>延伸閱讀</h2>
         <ul class="related-list">
           {relatedLore.map((related) => (
             <li>
-              <a href={withBase(`lore/${related.id}/`)}>{related.data.title}</a> &mdash; lore entry
+              <a href={withBase(`lore/${related.id}/`)}>{related.data.title}</a> &mdash; 背景條目
             </li>
           ))}
           {relatedTimeline.map((related) => (
             <li>
-              <a href={withBase('timeline/')}>{related.data.title}</a> &mdash; timeline event ({related.data.displayDate})
+              <a href={withBase('timeline/')}>{related.data.title}</a> &mdash; 時間軸事件({related.data.displayDate})
             </li>
           ))}
         </ul>

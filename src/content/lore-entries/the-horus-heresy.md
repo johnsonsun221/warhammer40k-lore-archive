@@ -1,43 +1,33 @@
 ---
-title: "The Horus Heresy"
-summary: "A summary of the galaxy-spanning civil war that very nearly extinguished the newly-founded Imperium, and reshaped it forever."
+title: "荷魯斯之亂"
+summary: "一場橫跨銀河的內戰概述 — 它幾乎使這個新建立的帝國徹底覆滅,並永遠地重塑了它。"
 era: "horus-heresy"
 sortKey: 30005
-factions: ["Imperium of Man", "Traitor Legions", "Loyalist Legions"]
-tags: ["civil war", "betrayal", "warmaster"]
+factions: ["人類帝國", "叛變軍團", "忠誠軍團"]
+tags: ["內戰", "背叛", "戰帥"]
 relatedEvents: ["horus-heresy-istvaan"]
 relatedEntries: ["the-great-crusade", "the-imperium-overview"]
 originalSummary: true
 draft: false
 ---
 
-## Overview
+## 概覽
 
-At the height of the Great Crusade, the Emperor's most accomplished
-commander - the Primarch Horus, given the title of Warmaster - was turned
-against his father through manipulation by dark powers beyond the material
-universe. Horus drew several of his fellow Primarchs and their Legions
-into open rebellion, igniting a civil war that split the Imperium and the
-Space Marine Legions roughly in two.
+在大遠征的鼎盛時期,帝皇麾下最有成就的指揮官 — 獲封戰帥之銜的原體荷魯斯 — 在來自
+物質宇宙之外的黑暗力量操弄下,背叛了他的父親。荷魯斯拉攏數位原體弟兄及其軍團公然
+叛亂,點燃了一場將帝國與星際戰士軍團幾乎一分為二的內戰。
 
-The conflict raged across the galaxy for years, culminating in a final
-confrontation on Terra itself. Though the rebellion was ultimately defeated,
-the cost was staggering: the Emperor was grievously wounded, entire Legions
-were shattered or turned traitor permanently, and the Imperium that emerged
-afterward was a far harsher, more militarised, and more dogmatic place than
-the one the Great Crusade had set out to build.
+這場衝突在銀河各處肆虐多年,最終在泰拉本土爆發決戰。叛亂雖然終究被擊敗,代價卻
+極為慘重:帝皇身受重傷、整支整支的軍團被擊潰或永遠淪為叛徒,而戰後浮現的帝國,
+比起大遠征當初所要打造的那個,變得遠為嚴酷、更加軍事化,也更為教條僵化。
 
-## Why It Matters
+## 為何重要
 
-- It is the single most consequential event in the setting's history,
-  explaining why the Imperium of the "present day" looks the way it does.
-- The Traitor Legions that survived became the core of Chaos Space Marine
-  forces in later eras.
-- Almost every faction and institution in the setting can trace some part
-  of its identity back to this conflict.
+- 這是此設定歷史上影響最深遠的單一事件,解釋了「當代」帝國為何會是如今的模樣。
+- 倖存下來的叛變軍團,成為後世各時代混沌星際戰士武力的核心。
+- 此設定中幾乎每一個派系與機構,都能將其身分認同的某個部分追溯到這場衝突。
 
 ---
 
-*This page is a starting template. Replace or expand this with your own
-original notes, theories, and favourite moments - this site is meant to be
-your personal reference, not a copy of any official source.*
+*本頁為起始範本。請以你自己的原創筆記、理論與最愛的橋段取代或擴充它 — 本站定位為
+你的個人參考,而非任何官方來源的複製。*

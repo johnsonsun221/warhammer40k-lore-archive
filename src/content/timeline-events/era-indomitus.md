@@ -1,22 +1,18 @@
 ---
-title: "The Coming of the Great Rift"
-displayDate: "Year 999.M41 onward"
+title: "大裂隙降臨"
+displayDate: "999.M41 起"
 sortKey: 40999
 era: "era-indomitus"
-summary: "A galaxy-spanning warp storm tears the galaxy in two, plunging the Imperium into its darkest hour and forcing the return of long-absent Primarchs to lead a desperate crusade of reconquest."
-factions: ["Imperium of Man", "Chaos"]
-tags: ["great rift", "primaris", "indomitus crusade"]
+summary: "一場橫貫銀河的亞空間風暴將銀河撕裂為二,使帝國墜入最黑暗的時刻,並迫使久未現身的原體歸來,領導一場孤注一擲的收復遠征。"
+factions: ["人類帝國", "混沌"]
+tags: ["大裂隙", "至尊戰士", "不屈遠征"]
 relatedLoreEntry: "the-imperium-overview"
 draft: false
 ---
 
-After ten thousand years, the fragile stability of the Imperium shatters
-as an immense warp rift splits the galaxy along its length, cutting off
-half of human space and unleashing daemonic incursions on an
-unprecedented scale. In response, new legions of reinforcements are
-deployed and lost Primarchs return to lead the fightback - opening the
-current era of the setting.
+歷經一萬年後,帝國脆弱的穩定崩解 — 一道巨大的亞空間裂隙沿著銀河的長軸將其劈開,
+切斷了半個人類星域,並釋放出規模空前的惡魔入侵。為了應對,新一批增援軍團被派遣
+投入戰場,失落的原體也歸來領導反擊 — 從而揭開了此設定當前的時代。
 
-> Replace this with your own notes on the current era - what's changed,
-> what you're most excited about, or how you imagine your own forces fit
-> into this period.
+> 請把這段換成你自己對當前時代的筆記 — 有哪些改變、你最期待的是什麼,或你心目中
+> 自己的部隊如何融入這個時期。

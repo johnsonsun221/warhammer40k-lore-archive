@@ -1,21 +1,19 @@
 ---
-title: "The Drop Site Massacre at Isstvan V"
-displayDate: "c. 005.M31"
+title: "伊斯特萬五號的著陸場大屠殺"
+displayDate: "約 005.M31"
 sortKey: 30005
 era: "horus-heresy"
-summary: "Warmaster Horus springs a devastating ambush on loyalist Space Marine forces at Isstvan V - an act of betrayal that ignites a galaxy-spanning civil war within the Imperium."
-factions: ["Sons of Horus", "World Eaters", "Death Guard", "Emperor's Children", "Salamanders", "Raven Guard", "Iron Hands"]
-tags: ["horus heresy", "civil war", "betrayal", "primarchs"]
+summary: "戰帥荷魯斯在伊斯特萬五號對忠誠派星際戰士部隊發動毀滅性的伏擊 — 這場背叛點燃了帝國境內一場橫跨銀河的內戰。"
+factions: ["荷魯斯之子", "吞世者", "死亡守衛", "帝皇之子", "火蜥蜴", "渡鴉守衛", "鋼鐵之手"]
+tags: ["荷魯斯之亂", "內戰", "背叛", "原體"]
 relatedLoreEntry: "the-horus-heresy"
 relatedEvents: ["great-crusade-begins"]
 draft: false
 ---
 
-The Warmaster, once the Emperor's most trusted commander, turns against
-the Imperium he helped build. Loyalist Legions sent to relieve a rebel
-world are caught in a coordinated ambush by their former brothers,
-suffering catastrophic losses. The betrayal at Isstvan V marks the point
-of no return for the conflict that will become known as the Horus Heresy.
+這位曾是帝皇最受信任指揮官的戰帥,背棄了他親手協助建立的帝國。被派去馳援一個
+叛亂世界的忠誠派軍團,落入昔日弟兄精心協調的伏擊之中,蒙受慘重的損失。伊斯特萬
+五號的背叛,標誌著這場日後被稱為「荷魯斯之亂」的衝突再無回頭路。
 
-> Replace this with your own notes - which Legions you find most
-> interesting, key characters, or your favourite retellings of this event.
+> 請把這段換成你自己的筆記 — 你覺得最有趣的軍團、關鍵角色,或你最愛的這起事件
+> 敘事版本。

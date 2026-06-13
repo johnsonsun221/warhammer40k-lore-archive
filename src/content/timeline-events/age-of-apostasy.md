@@ -1,20 +1,18 @@
 ---
-title: "The Age of Apostasy"
-displayDate: "c. 35.M36"
+title: "叛教時代"
+displayDate: "約 35.M36"
 sortKey: 35035
 era: "age-of-apostasy"
-summary: "A period of religious extremism, civil war, and rebellion grips the Imperium after the abuses of a corrupt High Lord, ending only with the intervention of a living Saint."
-factions: ["Imperium of Man", "Ecclesiarchy"]
-tags: ["civil war", "ecclesiarchy", "rebellion", "saints"]
+summary: "在一位腐敗的泰拉至高領主濫權之後,宗教極端主義、內戰與叛亂籠罩帝國,直到一位在世聖徒介入才告終。"
+factions: ["人類帝國", "帝國教會"]
+tags: ["內戰", "教會", "叛亂", "聖徒"]
 relatedLoreEntry: "the-imperium-overview"
 draft: false
 ---
 
-A High Lord of Terra seizes unprecedented power over the Imperial Church,
-plunging the Imperium into a bloody internal conflict as worlds rise in
-rebellion against the Ecclesiarchy's excesses. The crisis is eventually
-broken by the actions of a famed Imperial Saint, reshaping the balance of
-power between Church and State for millennia to come.
+一位泰拉至高領主奪取了對帝國教會前所未有的權力,使帝國陷入一場血腥的內部衝突,
+各世界紛紛起而反抗教會的暴行。這場危機最終由一位著名的帝國聖徒出手化解,並重塑了
+此後數千年間教會與政權之間的權力平衡。
 
-> Replace this with your own notes on this era - causes, key figures, or
-> how it connects to the Imperium you're building your own lore around.
+> 請把這段換成你自己對此時代的筆記 — 起因、關鍵人物,或它如何與你正在建構自身
+> 設定的帝國相連結。

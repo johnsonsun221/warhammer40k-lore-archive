@@ -1,46 +1,37 @@
 ---
-title: "The Imperium of Man: An Overview"
-summary: "Notes on the structure, beliefs, and key institutions of the Imperium - the vast, theocratic interstellar empire of humanity."
+title: "人類帝國:概覽"
+summary: "關於帝國的結構、信仰與主要機構的筆記 — 帝國,即人類龐大的政教合一星際帝國。"
 era: "age-of-the-imperium"
-factions: ["Imperium of Man"]
-tags: ["imperium", "ecclesiarchy", "adeptus terra"]
+factions: ["人類帝國"]
+tags: ["帝國", "教會", "泰拉行政機構"]
 relatedEvents: ["age-of-apostasy", "era-indomitus"]
 relatedEntries: ["the-horus-heresy"]
 originalSummary: true
 draft: false
 ---
 
-## Overview
+## 概覽
 
-The Imperium of Man is a sprawling interstellar empire spanning roughly a
-million worlds, governed in the name of the Emperor from Terra. In practice
-it is ruled by a vast, often dysfunctional bureaucracy of overlapping
-institutions - military, religious, administrative, and technological -
-that have grown and ossified over ten thousand years.
+人類帝國是一個橫跨約一百萬個世界的龐大星際帝國,以帝皇之名自泰拉統治。實際上,
+它由一個龐大、往往運作失靈的官僚體系所統御 — 這些彼此交疊的機構橫跨軍事、宗教、
+行政與科技各領域,歷經一萬年的演變後早已僵化。
 
-Day-to-day life across the Imperium varies enormously: some worlds are
-hyper-advanced forge worlds dedicated to manufacturing, others are
-medieval-feeling agri-worlds that have no contact with the wider galaxy for
-centuries at a time. What unites them is a shared (if often locally
-distorted) faith in the Emperor as a divine protector, and the constant,
-grinding threat of war on every front - against alien empires, against
-heretics and traitors, and against the predations of Chaos itself.
+帝國各地的日常生活差異極大:有些世界是專精製造、科技極度先進的鑄造世界,有些則是
+帶有中世紀色彩的農業世界,可能一連數百年都與更廣大的銀河毫無往來。將它們維繫在
+一起的,是一份共有(儘管常因地方而扭曲)的信仰 — 將帝皇奉為神聖的守護者 — 以及
+來自各方持續不斷、令人消磨的戰爭威脅:對抗異形帝國、對抗異端與叛徒,以及對抗混沌
+本身的侵蝕。
 
-## Key Institutions
+## 主要機構
 
-- **Adeptus Terra** - the civil administration of the Imperium.
-- **Astra Militarum** - the Imperium's conventional military forces.
-- **Adeptus Astartes** - the Space Marine Chapters descended from the
-  original Legions.
-- **Ecclesiarchy** - the Imperial Church and its faith in the Emperor.
-- **Adeptus Mechanicus** - keepers and maintainers of (mostly
-  pre-Heresy) technology.
-- **Inquisition** - internal security against heresy, mutation, and
-  alien infiltration.
+- **泰拉行政機構(Adeptus Terra)** — 帝國的民政管理體系。
+- **帝國衛隊(Astra Militarum)** — 帝國的常規軍事武力。
+- **阿斯塔特修會(Adeptus Astartes)** — 承襲自最初軍團的星際戰士修會。
+- **帝國教會(Ecclesiarchy)** — 帝國的官方教會及其對帝皇的信仰。
+- **機械神教(Adeptus Mechanicus)** — (多半為叛亂前)科技的守護者與維護者。
+- **異端審判庭(Inquisition)** — 對抗異端、變異與異形滲透的內部安全機構。
 
 ---
 
-*This page is a starting template. Replace or expand this with your own
-original notes on how you imagine the Imperium and its institutions - this
-site is meant to be your personal reference, not a copy of any official
-source.*
+*本頁為起始範本。請以你自己的原創筆記取代或擴充它,寫下你心目中的帝國及其機構
+樣貌 — 本站定位為你的個人參考,而非任何官方來源的複製。*

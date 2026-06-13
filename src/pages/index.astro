@@ -7,41 +7,38 @@ import { withBase } from '../utils/url';
 const loreEntries = (await getCollection('lore-entries', ({ data }) => !data.draft)).slice(0, 3);
 ---
 
-<Layout title="Home" description="A personal, fan-made Warhammer 40,000 lore and timeline archive.">
-  <h1>The Lore Archive</h1>
+<Layout title="首頁" description="一個由粉絲製作的個人 Warhammer 40,000 背景設定與時間軸資料庫。">
+  <h1>背景設定資料庫</h1>
 
   <p>
-    Welcome to my personal corner of the grim darkness of the far future.
-    This site is a work-in-progress reference for my own notes on the
-    Warhammer 40,000 setting &mdash; a timeline of the events I find most
-    important, write-ups of the factions and lore I care about, and (soon)
-    my hobby projects, battle reports, and fan creations.
+    歡迎來到我在「遙遠未來的殘酷黑暗」中的個人角落。本站是我為 Warhammer 40,000
+    設定整理筆記的進行中參考站 &mdash; 收錄我認為最重要事件的時間軸、我所在意的
+    派系與背景設定的整理,以及(即將推出的)我的模型專案、戰報與同人創作。
   </p>
 
   <p>
-    Everything here is written in my own words, for my own reference and
-    enjoyment. Warhammer 40,000 and all related properties belong to Games
-    Workshop &mdash; see the footer for the full disclaimer.
+    這裡的一切都是我用自己的話寫成,供我個人參考與自娛之用。Warhammer 40,000
+    及所有相關財產皆屬於 Games Workshop &mdash; 完整免責聲明請見頁尾。
   </p>
 
   <hr class="divider" />
 
   <div class="quick-links">
     <a class="quick-link" href={withBase('timeline/')}>
-      <h3>Timeline</h3>
-      <p>Browse major events of the setting in chronological order.</p>
+      <h3>時間軸</h3>
+      <p>依時間順序瀏覽設定中的重大事件。</p>
     </a>
     <a class="quick-link" href={withBase('lore/')}>
-      <h3>Lore Index</h3>
-      <p>Worldview write-ups, factions, and key concepts.</p>
+      <h3>背景設定索引</h3>
+      <p>世界觀整理、派系與核心概念。</p>
     </a>
     <a class="quick-link" href={withBase('factions/')}>
-      <h3>Factions</h3>
-      <p>The armies and powers of the 41st millennium.</p>
+      <h3>派系</h3>
+      <p>第 41 個千年中的各方軍隊與勢力。</p>
     </a>
   </div>
 
-  <h2>Featured Lore Entries</h2>
+  <h2>精選背景條目</h2>
   <div class="card-grid">
     {loreEntries.map((entry) => <LoreCard entry={entry} />)}
   </div>

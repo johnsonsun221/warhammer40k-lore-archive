@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import Tag from './Tag.astro';
+import { alignmentLabel } from '../data/eras';
 import { withBase } from '../utils/url';
 
 interface Props {
@@ -15,11 +16,11 @@ const { title, shortName, summary, alignment, placeholder } = faction.data;
   <div class="placeholder-art">{shortName}</div>
   <h3><a href={withBase(`factions/${faction.id}/`)}>{title}</a></h3>
   <div class="badges">
-    {alignment && <Tag label={alignment} variant="era" />}
-    {placeholder && <Tag label="Placeholder" />}
+    {alignment && <Tag label={alignmentLabel(alignment)} variant="era" />}
+    {placeholder && <Tag label="待補內容" />}
   </div>
   <p>{summary}</p>
-  <a class="read-more" href={withBase(`factions/${faction.id}/`)}>View faction &rarr;</a>
+  <a class="read-more" href={withBase(`factions/${faction.id}/`)}>查看派系 &rarr;</a>
 </article>
 
 <style>

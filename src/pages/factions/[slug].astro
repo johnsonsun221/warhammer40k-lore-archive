@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Tag from '../../components/Tag.astro';
+import { alignmentLabel } from '../../data/eras';
 import { withBase } from '../../utils/url';
 import { getCollection, getEntries, render } from 'astro:content';
 
@@ -22,9 +23,9 @@ const related = relatedEntries.length ? await getEntries(relatedEntries) : [];
 <Layout title={title} description={summary}>
   <h1>{title}</h1>
   <div class="badges">
-    {alignment && <Tag label={alignment} variant="era" />}
+    {alignment && <Tag label={alignmentLabel(alignment)} variant="era" />}
     {tags.map((tag) => <Tag label={tag} />)}
-    {placeholder && <Tag label="Placeholder" />}
+    {placeholder && <Tag label="待補內容" />}
   </div>
 
   <div class="placeholder-art">{shortName}</div>
@@ -37,7 +38,7 @@ const related = relatedEntries.length ? await getEntries(relatedEntries) : [];
     related.length > 0 && (
       <>
         <hr class="divider" />
-        <h2>Related Lore</h2>
+        <h2>相關背景設定</h2>
         <ul class="related-list">
           {related.map((entry) => (
             <li>

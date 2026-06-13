@@ -1,42 +1,34 @@
 ---
-title: "The Great Crusade"
-summary: "Notes on the Imperium's age of expansion - the reunification of human worlds, the role of the Primarchs and their Legions, and the seeds of the conflict to come."
+title: "大遠征"
+summary: "關於帝國擴張時代的筆記 — 人類世界的重新統一、原體與其軍團所扮演的角色,以及日後衝突的種子。"
 era: "great-crusade"
 sortKey: 29798
-factions: ["Imperium of Man", "Space Marine Legions"]
-tags: ["primarchs", "expansion", "legions"]
+factions: ["人類帝國", "星際戰士軍團"]
+tags: ["原體", "擴張", "軍團"]
 relatedEvents: ["great-crusade-begins"]
 relatedEntries: ["age-of-strife-overview", "the-horus-heresy"]
 originalSummary: true
 draft: false
 ---
 
-## Overview
+## 概覽
 
-With Terra united under his rule, the Emperor began the work of bringing
-the rest of humanity back into a single empire. To do this, he created
-the Space Marine Legions - elite warriors enhanced beyond normal human
-limits - and the Primarchs, twenty superhuman sons scattered across the
-galaxy in their infancy, each destined to lead one of these Legions.
+當泰拉在帝皇治下統一後,他便著手將其餘人類重新納入單一帝國。為此,他創造了星際
+戰士軍團 — 經強化而超越常人極限的菁英戰士 — 以及原體,二十位在嬰孩時期便被散落
+至銀河各處的超人之子,每一位都注定要統領其中一支軍團。
 
-Over decades, Crusade fleets swept outward from Terra, rediscovering lost
-colonies, defeating hostile alien empires, and bringing wayward human
-factions back under Imperial rule. It was an age of genuine optimism and
-unprecedented technological and military power - but also one where deep
-disagreements about ideology, command, and the role of religion within
-the new Imperium were quietly taking root.
+數十年間,遠征艦隊自泰拉向外橫掃,重新發現失落的殖民地、擊敗懷有敵意的異形帝國,
+並將迷途的人類派系重新納入帝國統治。那是一個充滿真摯樂觀情緒、擁有前所未有科技與
+軍事力量的時代 — 但也正是在這時,關於意識形態、指揮權,以及宗教在新帝國中所應扮演
+角色的深層分歧,悄然生根。
 
-## Notable Figures
+## 重要人物
 
-- **The Emperor of Mankind** - architect of the Imperium and the Great
-  Crusade.
-- **The Primarchs** - the twenty superhuman commanders of the Space Marine
-  Legions (add your own notes on your favourites here).
-- **The Space Marine Legions** - the Crusade's primary instruments of
-  conquest and diplomacy.
+- **人類帝皇** — 帝國與大遠征的締造者。
+- **原體** — 二十位統領星際戰士軍團的超人指揮官(把你對最愛原體的筆記寫在這裡)。
+- **星際戰士軍團** — 大遠征進行征服與外交的主要工具。
 
 ---
 
-*This page is a starting template. Replace or expand this with your own
-original notes - this site is meant to be your personal reference, not a
-copy of any official source.*
+*本頁為起始範本。請以你自己的原創筆記取代或擴充它 — 本站定位為你的個人參考,
+而非任何官方來源的複製。*
