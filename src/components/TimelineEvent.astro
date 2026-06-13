@@ -1,0 +1,94 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Tag from './Tag.astro';
+import { withBase } from '../utils/url';
+
+interface Props {
+  event: CollectionEntry<'timeline-events'>;
+}
+
+const { event } = Astro.props;
+const { title, displayDate, summary, factions, relatedLoreEntry } = event.data;
+---
+
+<article class="timeline-event">
+  <div class="marker" aria-hidden="true"></div>
+  <div class="card event-card">
+    <p class="date">{displayDate}</p>
+    <h3>{title}</h3>
+    <div class="badges">
+      {factions.slice(0, 4).map((faction) => <Tag label={faction} />)}
+    </div>
+    <p>{summary}</p>
+    {
+      relatedLoreEntry && (
+        <a class="read-more" href={withBase(`lore/${relatedLoreEntry.id}/`)}>
+          Read full entry &rarr;
+        </a>
+      )
+    }
+  </div>
+</article>
+
+<style>
+  .timeline-event {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .timeline-event::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 0;
+    bottom: -1.5rem;
+    width: 2px;
+    background: var(--color-border);
+  }
+
+  .timeline-event:last-child::before {
+    bottom: 0;
+  }
+
+  .marker {
+    position: absolute;
+    left: 0;
+    top: 0.4rem;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--color-bg);
+    border: 2px solid var(--color-gold);
+  }
+
+  .date {
+    font-family: var(--font-heading);
+    color: var(--color-gold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin: 0 0 0.25rem;
+  }
+
+  .event-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .badges {
+    margin-bottom: 0.5rem;
+  }
+
+  .event-card p {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+  }
+
+  .read-more {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+</style>

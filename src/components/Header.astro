@@ -1,0 +1,55 @@
+---
+import Nav from './Nav.astro';
+import { withBase } from '../utils/url';
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href={withBase('')}>
+      <span class="wordmark-line1">Lore Archive</span>
+      <span class="wordmark-line2">Warhammer 40,000 &mdash; Fan Notes</span>
+    </a>
+    <Nav />
+  </div>
+</header>
+
+<style>
+  .site-header {
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-bg-elevated);
+  }
+
+  .header-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .wordmark {
+    display: block;
+    margin-bottom: 1rem;
+    border-bottom: none;
+  }
+
+  .wordmark:hover,
+  .wordmark:focus {
+    border-bottom: none;
+  }
+
+  .wordmark-line1 {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+  }
+
+  .wordmark-line2 {
+    display: block;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+</style>

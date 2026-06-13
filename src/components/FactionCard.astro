@@ -1,0 +1,51 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Tag from './Tag.astro';
+import { withBase } from '../utils/url';
+
+interface Props {
+  faction: CollectionEntry<'factions'>;
+}
+
+const { faction } = Astro.props;
+const { title, shortName, summary, alignment, placeholder } = faction.data;
+---
+
+<article class="card faction-card">
+  <div class="placeholder-art">{shortName}</div>
+  <h3><a href={withBase(`factions/${faction.id}/`)}>{title}</a></h3>
+  <div class="badges">
+    {alignment && <Tag label={alignment} variant="era" />}
+    {placeholder && <Tag label="Placeholder" />}
+  </div>
+  <p>{summary}</p>
+  <a class="read-more" href={withBase(`factions/${faction.id}/`)}>View faction &rarr;</a>
+</article>
+
+<style>
+  .faction-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faction-card h3 {
+    margin-top: 0;
+  }
+
+  .badges {
+    margin-bottom: 0.5rem;
+  }
+
+  .faction-card p {
+    flex-grow: 1;
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+  }
+
+  .read-more {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+</style>

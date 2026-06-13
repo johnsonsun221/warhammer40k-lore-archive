@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LoreCard from '../components/LoreCard.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../utils/url';
+
+const loreEntries = (await getCollection('lore-entries', ({ data }) => !data.draft)).slice(0, 3);
+---
+
+<Layout title="Home" description="A personal, fan-made Warhammer 40,000 lore and timeline archive.">
+  <h1>The Lore Archive</h1>
+
+  <p>
+    Welcome to my personal corner of the grim darkness of the far future.
+    This site is a work-in-progress reference for my own notes on the
+    Warhammer 40,000 setting &mdash; a timeline of the events I find most
+    important, write-ups of the factions and lore I care about, and (soon)
+    my hobby projects, battle reports, and fan creations.
+  </p>
+
+  <p>
+    Everything here is written in my own words, for my own reference and
+    enjoyment. Warhammer 40,000 and all related properties belong to Games
+    Workshop &mdash; see the footer for the full disclaimer.
+  </p>
+
+  <hr class="divider" />
+
+  <div class="quick-links">
+    <a class="quick-link" href={withBase('timeline/')}>
+      <h3>Timeline</h3>
+      <p>Browse major events of the setting in chronological order.</p>
+    </a>
+    <a class="quick-link" href={withBase('lore/')}>
+      <h3>Lore Index</h3>
+      <p>Worldview write-ups, factions, and key concepts.</p>
+    </a>
+    <a class="quick-link" href={withBase('factions/')}>
+      <h3>Factions</h3>
+      <p>The armies and powers of the 41st millennium.</p>
+    </a>
+  </div>
+
+  <h2>Featured Lore Entries</h2>
+  <div class="card-grid">
+    {loreEntries.map((entry) => <LoreCard entry={entry} />)}
+  </div>
+</Layout>
+
+<style>
+  .quick-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .quick-link {
+    display: block;
+    border: 1px solid var(--color-border);
+    border-top: 3px solid var(--color-gold);
+    border-radius: var(--radius);
+    background: var(--color-bg-elevated);
+    padding: 1rem;
+  }
+
+  .quick-link:hover,
+  .quick-link:focus {
+    border-color: var(--color-red);
+    border-top-color: var(--color-gold);
+  }
+
+  .quick-link h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .quick-link p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+</style>

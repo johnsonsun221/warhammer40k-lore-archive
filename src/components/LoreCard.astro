@@ -1,0 +1,51 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Tag from './Tag.astro';
+import { eraLabel } from '../data/eras';
+import { withBase } from '../utils/url';
+
+interface Props {
+  entry: CollectionEntry<'lore-entries'>;
+}
+
+const { entry } = Astro.props;
+const { title, summary, era, tags } = entry.data;
+---
+
+<article class="card lore-card">
+  <h3><a href={withBase(`lore/${entry.id}/`)}>{title}</a></h3>
+  <div class="badges">
+    <Tag label={eraLabel(era)} variant="era" />
+    {tags.slice(0, 3).map((tag) => <Tag label={tag} />)}
+  </div>
+  <p>{summary}</p>
+  <a class="read-more" href={withBase(`lore/${entry.id}/`)}>Read entry &rarr;</a>
+</article>
+
+<style>
+  .lore-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lore-card h3 {
+    margin-top: 0;
+  }
+
+  .badges {
+    margin-bottom: 0.5rem;
+  }
+
+  .lore-card p {
+    flex-grow: 1;
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+  }
+
+  .read-more {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+</style>

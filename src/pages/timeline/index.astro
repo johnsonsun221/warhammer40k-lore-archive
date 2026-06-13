@@ -1,0 +1,46 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TimelineEvent from '../../components/TimelineEvent.astro';
+import EraNav from '../../components/EraNav.astro';
+import { eraLabel } from '../../data/eras';
+import { getCollection } from 'astro:content';
+
+const events = (await getCollection('timeline-events', ({ data }) => !data.draft)).sort(
+  (a, b) => a.data.sortKey - b.data.sortKey,
+);
+
+// Group events by era, preserving chronological order within each era.
+const groups: { era: string; events: typeof events }[] = [];
+for (const event of events) {
+  const last = groups[groups.length - 1];
+  if (last && last.era === event.data.era) {
+    last.events.push(event);
+  } else {
+    groups.push({ era: event.data.era, events: [event] });
+  }
+}
+
+const activeEras = new Set(groups.map((g) => g.era));
+---
+
+<Layout title="Timeline" description="A chronological timeline of major Warhammer 40,000 events, as I've organised them.">
+  <h1>Timeline</h1>
+
+  <p>
+    A chronological run-through of the events I consider most important to
+    the setting, grouped by era. Dates are shown using in-universe notation
+    (e.g. "M31" = the 31st Millennium); ordering on this page is approximate
+    and based on my own reading of the timeline.
+  </p>
+
+  <EraNav activeEras={activeEras} />
+
+  {
+    groups.map((group) => (
+      <section id={group.era}>
+        <h2>{eraLabel(group.era)}</h2>
+        {group.events.map((event) => <TimelineEvent event={event} />)}
+      </section>
+    ))
+  }
+</Layout>

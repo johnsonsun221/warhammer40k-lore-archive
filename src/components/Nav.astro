@@ -1,0 +1,103 @@
+---
+import { withBase } from '../utils/url';
+
+const links = [
+  { href: withBase(''), label: 'Home' },
+  { href: withBase('timeline/'), label: 'Timeline' },
+  { href: withBase('lore/'), label: 'Lore' },
+  { href: withBase('factions/'), label: 'Factions' },
+  { href: withBase('hobby/'), label: 'Hobby Log' },
+  { href: withBase('battle-reports/'), label: 'Battle Reports' },
+  { href: withBase('fan-creations/'), label: 'Fan Creations' },
+  { href: withBase('wishlist/'), label: 'Wishlist' },
+  { href: withBase('links/'), label: 'Links' },
+  { href: withBase('about/'), label: 'About' },
+];
+
+const currentPath = new URL(Astro.request.url).pathname;
+---
+
+<nav class="nav">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+  <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <ul class="nav-list">
+    {
+      links.map((link) => (
+        <li>
+          <a href={link.href} aria-current={currentPath === link.href ? 'page' : undefined}>
+            {link.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style>
+  .nav {
+    position: relative;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list a {
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.5rem 0.1rem;
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav-list a:hover,
+  .nav-list a:focus,
+  .nav-list a[aria-current='page'] {
+    color: var(--color-gold);
+    border-bottom-color: var(--color-gold);
+  }
+
+  .nav-toggle,
+  .nav-toggle-label {
+    display: none;
+  }
+
+  @media (max-width: 720px) {
+    .nav-toggle-label {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      width: 28px;
+      cursor: pointer;
+      margin-bottom: 0.5rem;
+    }
+
+    .nav-toggle-label span {
+      display: block;
+      height: 2px;
+      background: var(--color-gold);
+    }
+
+    .nav-list {
+      max-height: 0;
+      overflow: hidden;
+      flex-direction: column;
+      transition: max-height 0.2s ease;
+    }
+
+    .nav-toggle:checked ~ .nav-list {
+      max-height: 30rem;
+    }
+  }
+</style>

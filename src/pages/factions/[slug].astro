@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Tag from '../../components/Tag.astro';
+import { withBase } from '../../utils/url';
+import { getCollection, getEntries, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const factions = await getCollection('factions', ({ data }) => !data.draft);
+  return factions.map((faction) => ({
+    params: { slug: faction.id },
+    props: { faction },
+  }));
+}
+
+const { faction } = Astro.props;
+const { title, shortName, summary, alignment, tags, relatedEntries, placeholder } = faction.data;
+const { Content } = await render(faction);
+
+const related = relatedEntries.length ? await getEntries(relatedEntries) : [];
+---
+
+<Layout title={title} description={summary}>
+  <h1>{title}</h1>
+  <div class="badges">
+    {alignment && <Tag label={alignment} variant="era" />}
+    {tags.map((tag) => <Tag label={tag} />)}
+    {placeholder && <Tag label="Placeholder" />}
+  </div>
+
+  <div class="placeholder-art">{shortName}</div>
+
+  <div class="content">
+    <Content />
+  </div>
+
+  {
+    related.length > 0 && (
+      <>
+        <hr class="divider" />
+        <h2>Related Lore</h2>
+        <ul class="related-list">
+          {related.map((entry) => (
+            <li>
+              <a href={withBase(`lore/${entry.id}/`)}>{entry.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+</Layout>
+
+<style>
+  .badges {
+    margin-bottom: 1rem;
+  }
+
+  .related-list {
+    padding-left: 1.25rem;
+  }
+</style>

@@ -1,0 +1,42 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>
+      This is an unofficial, non-commercial fan site. Warhammer 40,000,
+      the Aquila logo, and all related names, characters, and artwork are
+      trademarks and/or copyrights of Games Workshop Limited. All original
+      summaries, notes, and opinions on this site are the author's own.
+    </p>
+    <p class="meta">&copy; {year} &mdash; Lore Archive (personal project)</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--color-border);
+    margin-top: 3rem;
+  }
+
+  .footer-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+
+  .footer-inner p {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .meta {
+    margin-top: 0.5rem;
+    font-family: var(--font-heading);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
+</style>

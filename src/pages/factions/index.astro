@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import FactionCard from '../../components/FactionCard.astro';
+import { getCollection } from 'astro:content';
+
+const factions = (await getCollection('factions', ({ data }) => !data.draft)).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title),
+);
+---
+
+<Layout title="Factions" description="An overview of Warhammer 40,000 factions, from my own perspective.">
+  <h1>Factions</h1>
+
+  <p>
+    A growing list of the armies and powers of the 41st millennium, with my
+    own notes on the ones I collect, play, or just find interesting. Most of
+    these pages are still placeholders &mdash; more detail coming as I write
+    it up.
+  </p>
+
+  <div class="card-grid">
+    {factions.map((faction) => <FactionCard faction={faction} />)}
+  </div>
+</Layout>
